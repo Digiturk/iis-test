@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
+        <Link to="/link-1">Link 1</Link> |{" "}
+        <Link to="/link-2">Link 2</Link> |{" "}
         <a
           className="App-link"
           href="https://reactjs.org"
